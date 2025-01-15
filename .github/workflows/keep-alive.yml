@@ -19,7 +19,7 @@ jobs:
           python -c "
           import requests
           try:
-              response = requests.get('YOUR_SPACE_URL')
+              response = requests.get('https://huggingface.co/spaces/YsnHdn/pfe_site')
               print(f'Ping status: {response.status_code}')
           except Exception as e:
               print(f'Error: {e}')
